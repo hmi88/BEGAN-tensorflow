@@ -15,7 +15,7 @@ Figure1a. This is random result from my train model. From gamma 0.3 to 0.5. No c
 <img src="Result/64x64.bmp" width="250" height="250"/>
 </p>
 
-Figure1b. 128x128 img and 64x64 img
+Figure1b. 128x128 img and 64x64 img. 128x128 img is very impressive. Middle 4 imgs look like women
 
 <p>
 <img src="Result/result.gif" width="300" height="300" />
