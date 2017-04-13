@@ -25,7 +25,7 @@ This train model is 64x64. 128x128 will be update. Different with original paper
 <img src="Result/kt.jpg" width="810" height="270" />
 </p>
 
-Figure2. Kt graph. When you train model reference this result. It doesn't reach to 1.0. In my case, it's convergece to 0.08
+Figure2. Kt graph. When you train model reference this result. It doesn't reach to 1.0. In my case, it's converge to 0.08
 
 <p>
 <img src="Result/m_global.jpg" width="810" height="270" />
