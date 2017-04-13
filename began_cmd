@@ -1,0 +1,18 @@
+began_0.3_64  ## -f 0 -p "_began_gm0.3_zh128"        -trd "celeba" -tro "crop" -trs 64   -z 128 -em 128 -fn 64  -b 16 -lr 1e-4 -gm 0.3 -g "0"
+began_0.5_64  ## -f 0 -p "_began_gm0.5_zh128"        -trd "celeba" -tro "crop" -trs 64   -z 128 -em 128 -fn 64  -b 16 -lr 1e-4 -gm 0.5 -g "0"
+began_0.7_64  ## -f 0 -p "_began_gm0.7_zh128"        -trd "celeba" -tro "crop" -trs 64   -z 128 -em 128 -fn 64  -b 16 -lr 1e-4 -gm 0.7 -g "0"
+began_0.4_64  ## -f 0 -p "_began_gm0.4_zh128"        -trd "celeba" -tro "crop" -trs 64   -z 128 -em 128 -fn 64  -b 16 -lr 1e-4 -gm 0.4 -g "0"
+
+began_0.3_64  ## -f 1 -p "began_gm0.3_zh64"          -trd "celeba" -tro "crop" -trs 64   -z 64  -em 64  -fn 64  -b 16 -lr 1e-4 -gm 0.3 -g "0"
+began_0.4_64  ## -f 1 -p "began_gm0.4_zh64"          -trd "celeba" -tro "crop" -trs 64   -z 64  -em 64  -fn 64  -b 16 -lr 1e-4 -gm 0.4 -g "2"
+began_0.5_64  ## -f 1 -p "began_gm0.5_zh64"          -trd "celeba" -tro "crop" -trs 64   -z 64  -em 64  -fn 64  -b 16 -lr 1e-4 -gm 0.5 -g "3"
+began_0.7_64  ## -f 1 -p "began_gm0.7_zh64"          -trd "celeba" -tro "crop" -trs 64   -z 64  -em 64  -fn 64  -b 16 -lr 1e-4 -gm 0.7 -g "2"
+
+began_0.3_64  ## -f 1 -p "began_gm0.3_zh64_fn128"    -trd "celeba" -tro "crop" -trs 64   -z 64  -em 64  -fn 128 -b 16 -lr 1e-4 -gm 0.3 -g "2"
+began_0.3_64  ## -f 1 -p "began_gm0.4_zh64_fn128"    -trd "celeba" -tro "crop" -trs 64   -z 64  -em 64  -fn 128 -b 16 -lr 1e-4 -gm 0.4 -g "?"
+began_0.5_64  ## -f 1 -p "began_gm0.5_zh64_fn128"    -trd "celeba" -tro "crop" -trs 64   -z 64  -em 64  -fn 128 -b 16 -lr 1e-4 -gm 0.5 -g "1"
+began_0.7_64  ## -f 1 -p "began_gm0.7_zh64_fn128"    -trd "celeba" -tro "crop" -trs 64   -z 64  -em 64  -fn 128 -b 16 -lr 1e-4 -gm 0.7 -g "0"
+
+began_0.3_128 ## -f 1 -p "began_gm0.3"               -trd "celeba" -tro "crop" -trs 128  -z 64  -em 64  -fn 128 -b 16 -lr 1e-4 -gm 0.3 -g "5"
+began_0.5_128 ## -f 1 -p "began_gm0.5"               -trd "celeba" -tro "crop" -trs 128  -z 64  -em 64  -fn 128 -b 16 -lr 1e-4 -gm 0.5 -g "6"
+began_0.7_128 ## -f 1 -p "began_gm0.7"               -trd "celeba" -tro "crop" -trs 128  -z 64  -em 64  -fn 128 -b 16 -lr 1e-4 -gm 0.7 -g "7"
