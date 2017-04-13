@@ -9,9 +9,9 @@ BEGAN is the state of the art when it comes to generating realistic faces.
 </p>
 
 Figure1a. This is random result from my train model. From gamma 0.3 to 0.5. No cherry picking. gamma 0.3, nice but bias to women's face. gamma 0.4, Best. gamma 0.5, good texture but hole problem. 
-
+e
 <p>
-<img src="Result/64x64.bmp" width="500" height="500"/>
+<img src="Result/64x64.bmp" width="250" height="250"/>
 <img src="Result/128x128.bmp" width="500" height="500" />
 </p>
 Figure1b. 64x64 img and 128x128 img
@@ -48,6 +48,7 @@ Figure4. Compare with Generator output and Decoder output.
 
 
 ## Usage
+Recommend to download [this dropbox folder](). If you want to see the train progress run "tensorboard --logdir='./'"
 ### Make Train Data
 1. Unzip celebA dataset to 'Data/celeba/raw'
 2. Run ' python ./Data/celeba/face_detect.py '
