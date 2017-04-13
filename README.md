@@ -3,12 +3,12 @@ Implementation of Google Brain's [BEGAN: Boundary Equilibrium Generative Adversa
 BEGAN is the state of the art when it comes to generating realistic faces.
 
 <p>
-<img src="Result/gamma_0.3.bmp" width="270" height="270" />
-<img src="Result/gamma_0.4.bmp" width="270" height="270" />
-<img src="Result/gamma_0.5.bmp" width="270" height="270" />
+<img src="Result/gamma_0.3.bmp" width="250" height="250" />
+<img src="Result/gamma_0.4.bmp" width="350" height="350" />
+<img src="Result/gamma_0.5.bmp" width="250" height="250" />
 </p>
 
-Figure1a. This is random result from my train model. From gamma 0.3 to 0.5. No cherry picking. gamma 0.3, nice but clear but bias to women's face. gamma 0.4, best. gamma 0.5, nice texture but hole issue. 
+Figure1a. This is random result from my train model. From gamma 0.3 to 0.5. No cherry picking. gamma 0.3, nice but bias to women's face. gamma 0.4, Best. gamma 0.5, good texture but hole problem. 
 
 <p>
 <img src="Result/result.gif" width="300" height="300" />
