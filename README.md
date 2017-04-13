@@ -27,6 +27,8 @@ Figure1c. From scratch to 200k iter
 This train model is 64x64. 128x128 will be update. Different with original paper is train loss update method, learning rate decay. First, paper's loss update way is Loss_G and Loss_D simultaneously. But when I tried that way, models are mode collapse. So, This code use altenative way. Second, learning rate decay is 0.95 every 2000 iter. This parameter is just train experienc. You can change or see the paper. 
 
 ## Train progress
+If you want to see the train progress download [this dropbox folder](https://www.dropbox.com/sh/g72k2crptow3ime/AAAhkGlHCw9zQh0aE-Ggdt3Qa?dl=0) and run "tensorboard --logdir='./'". I uploaded two trained model(64x64 and 128x128)
+
 <p>
 <img src="Result/kt.jpg" width="810" height="270" />
 </p>
@@ -49,7 +51,8 @@ Figure4. Compare with Generator output and Decoder output.
 
 
 ## Usage
-Recommend to download [this dropbox folder](https://www.dropbox.com/sh/g72k2crptow3ime/AAAhkGlHCw9zQh0aE-Ggdt3Qa?dl=0). If you want to see the train progress run "tensorboard --logdir='./'"
+Recommend to download [this dropbox folder](https://www.dropbox.com/sh/g72k2crptow3ime/AAAhkGlHCw9zQh0aE-Ggdt3Qa?dl=0). 
+
 ### Make Train Data
 1. Unzip celebA dataset to 'Data/celeba/raw'
 2. Run ' python ./Data/celeba/face_detect.py '
