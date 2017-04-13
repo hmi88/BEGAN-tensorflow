@@ -4,17 +4,18 @@ BEGAN is the state of the art when it comes to generating realistic faces.
 
 <p>
 <img src="Result/gamma_0.3.bmp" width="250" height="250" />
-<img src="Result/gamma_0.4.bmp" width="350" height="350" />
+<img src="Result/gamma_0.4.bmp" width="250" height="250" />
 <img src="Result/gamma_0.5.bmp" width="250" height="250" />
 </p>
 
 Figure1a. This is random result from my train model. From gamma 0.3 to 0.5. No cherry picking. gamma 0.3, nice but bias to women's face. gamma 0.4, Best. gamma 0.5, good texture but hole problem. 
-e
+
 <p>
-<img src="Result/64x64.bmp" width="250" height="250"/>
 <img src="Result/128x128.bmp" width="500" height="500" />
+<img src="Result/64x64.bmp" width="250" height="250"/>
 </p>
-Figure1b. 64x64 img and 128x128 img
+
+Figure1b. 128x128 img and 64x64 img
 
 <p>
 <img src="Result/result.gif" width="300" height="300" />
@@ -48,26 +49,27 @@ Figure4. Compare with Generator output and Decoder output.
 
 
 ## Usage
-Recommend to download [this dropbox folder](). If you want to see the train progress run "tensorboard --logdir='./'"
+Recommend to download [this dropbox folder](https://www.dropbox.com/sh/g72k2crptow3ime/AAAhkGlHCw9zQh0aE-Ggdt3Qa?dl=0). If you want to see the train progress run "tensorboard --logdir='./'"
 ### Make Train Data
 1. Unzip celebA dataset to 'Data/celeba/raw'
 2. Run ' python ./Data/celeba/face_detect.py '
     
 ### Train (refer the main.py began_cmd)
-    ex) 64x64 img | Nz,Nh 128 | gamma 0.5
-    python main.py -f 1 -p "began" 
-                          -trd "celeba" -tro "crop" -trs 64   
-                          -z 128 -em 128 -fn 64  -b 16 -lr 1e-4 -gm 0.5 -g "0"
+    ex) 64x64 img | Nz,Nh 128 | gamma 0.4
+    python main.py -f 1 -p "began" -trd "celeba" -tro "crop" -trs 64   
+                          -z 128 -em 128 -fn 64  -b 16 -lr 1e-4 -gm 0.4 -g "0"
     
     ex) 128x128 img | Nz,Nh 64 | gamma 0.7                         
-    python main.py -f 1 -p "began" 
-                          -trd "celeba" -tro "crop" -trs 128
+    python main.py -f 1 -p "began" -trd "celeba" -tro "crop" -trs 128
                           -z 64 -em 64 -fn 128  -b 16 -lr 1e-4 -gm 0.7 -g "0"
                           
-### Test (refer the main.py and began_cmd)   
+### Test (refer the main.py and began_cmd)
+    ex) 64x64 img | Nz,Nh 128 | gamma 0.4
+    python main.py -f 1 -p "began" -trd "celeba" -tro "crop" -trs 64   
+                          -z 128 -em 128 -fn 64  -b 16 -lr 1e-4 -gm 0.4 -g "0"
+                          
     ex) 128x128 img | Nz,Nh 64 | gamma 0.7
-    python main.py -f 0 -p "began" 
-                          -trd "celeba" -tro "crop" -trs 64   
+    python main.py -f 0 -p "began" -trd "celeba" -tro "crop" -trs 64   
                           -z 64 -em 64 -fn 128  -b 16 -lr 1e-4 -gm 0.7 -g "0"
                           
                           
