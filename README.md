@@ -54,7 +54,7 @@ Figure4. Compare with Generator output and Decoder output.
 Recommend to download [this dropbox folder](https://www.dropbox.com/sh/g72k2crptow3ime/AAAhkGlHCw9zQh0aE-Ggdt3Qa?dl=0). 
 
 ### Make Train Data
-1. Unzip celebA dataset to 'Data/celeba/raw'
+1. Download [celebA dataset (img_align_celeba.zip)](http://pan.baidu.com/s/1eSNpdRG#list/path=%2FCelebA%2FImg) and unzip to 'Data/celeba/raw'
 2. Run ' python ./Data/celeba/face_detect.py '
     
 ### Train (refer the main.py began_cmd)
