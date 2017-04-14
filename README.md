@@ -1,6 +1,6 @@
 # BEGAN: Boundary Equilibrium Generative Adversarial Networks
 Implementation of Google Brain's [BEGAN: Boundary Equilibrium Generative Adversarial Networks](https://arxiv.org/abs/1703.10717) in Tensorflow. \
-BEGAN is the state of the art when it comes to generating realistic faces.
+BEGAN is the state of the art when it comes to generate realistic faces.
 
 <p>
 <img src="Result/gamma_0.3.bmp" width="250" height="250" />
