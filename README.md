@@ -59,21 +59,17 @@ Recommend to download [this dropbox folder](https://www.dropbox.com/sh/g72k2crpt
     
 ### Train (refer the main.py began_cmd)
     ex) 64x64 img | Nz,Nh 128 | gamma 0.4
-    python main.py -f 1 -p "began" -trd "celeba" -tro "crop" -trs 64   
-                          -z 128 -em 128 -fn 64  -b 16 -lr 1e-4 -gm 0.4 -g "0"
+    python main.py -f 1 -p "began" -trd "celeba" -tro "crop" -trs 64  -z 128 -em 128 -fn 64  -b 16 -lr 1e-4 -gm 0.4 -g "0"
     
     ex) 128x128 img | Nz,Nh 64 | gamma 0.7                         
-    python main.py -f 1 -p "began" -trd "celeba" -tro "crop" -trs 128
-                          -z 64 -em 64 -fn 128  -b 16 -lr 1e-4 -gm 0.7 -g "0"
+    python main.py -f 1 -p "began" -trd "celeba" -tro "crop" -trs 128 -z 64  -em 64  -fn 128 -b 16 -lr 1e-4 -gm 0.7 -g "0"
                           
 ### Test (refer the main.py and began_cmd)
     ex) 64x64 img | Nz,Nh 128 | gamma 0.4
-    python main.py -f 1 -p "began" -trd "celeba" -tro "crop" -trs 64   
-                          -z 128 -em 128 -fn 64  -b 16 -lr 1e-4 -gm 0.4 -g "0"
+    python main.py -f 0 -p "began" -trd "celeba" -tro "crop" -trs 64  -z 128 -em 128 -fn 64  -b 16 -lr 1e-4 -gm 0.4 -g "0"
                           
     ex) 128x128 img | Nz,Nh 64 | gamma 0.7
-    python main.py -f 0 -p "began" -trd "celeba" -tro "crop" -trs 64   
-                          -z 64 -em 64 -fn 128  -b 16 -lr 1e-4 -gm 0.7 -g "0"
+    python main.py -f 0 -p "began" -trd "celeba" -tro "crop" -trs 128 -z 64  -em 64  -fn 128 -b 16 -lr 1e-4 -gm 0.7 -g "0"
                           
                           
 ## Requirements
