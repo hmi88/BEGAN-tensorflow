@@ -41,7 +41,7 @@ def main():
     config = tf.ConfigProto(allow_soft_placement=True)
     with tf.Session(config=config) as sess:
         # Make Model
-        if "began_" in args.project:
+        if "began" in args.project:
             model = began.BEGAN(args, sess)
         if "begans" in args.project:
             model = begans.BEGANS(args, sess)
