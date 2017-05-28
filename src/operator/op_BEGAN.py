@@ -73,7 +73,7 @@ class Operator(op_base):
         if os.path.exists(data_path + '.npy'):
             data = np.load(data_path + '.npy')
         else:
-            data = sorted(glob(os.path.join(data_path, "*.*")))
+            data = sorted(glob.glob(os.path.join(data_path, "*.*")))
             np.save(data_path + '.npy', data)
 
         print('Shuffle ....')
